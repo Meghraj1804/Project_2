@@ -15,7 +15,7 @@ def get_requirements()->List[str]:
                 requirement = line.strip()
                 if requirement and requirement != '-e .':
                     requirement_lst.append(requirement)
-    except FileNotFoundError():
+    except FileNotFoundError:
         print('requirements.txt is not found')
         
     return requirement_lst
@@ -27,5 +27,6 @@ setup(
     author_email = 'zendemeghraj@gmail.com'
     packages = find_packages(),
     install_requires = get_requirements()
-)
+    )
+
                 
