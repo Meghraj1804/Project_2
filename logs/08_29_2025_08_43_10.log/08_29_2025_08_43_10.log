@@ -1,0 +1,6 @@
+[ 2025-08-29 08:43:15,338 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-08-29 08:43:15,358 ] 107 dagshub - INFO - Accessing as Meghraj1804
+[ 2025-08-29 08:43:15,844 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/Meghraj1804/Project_2 "HTTP/1.1 200 OK"
+[ 2025-08-29 08:43:16,273 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-08-29 08:43:16,278 ] 107 dagshub - INFO - Initialized MLflow to track repo "Meghraj1804/Project_2"
+[ 2025-08-29 08:43:16,279 ] 107 dagshub - INFO - Repository Meghraj1804/Project_2 initialized!
